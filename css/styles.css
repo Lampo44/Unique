@@ -1,0 +1,407 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-size: 14px;
+    line-height: 24px;
+    overflow-x: hidden;
+    font-family: 'Libre Franklin', sans-serif;
+}
+a, a:hover{
+    text-decoration: none;
+    color: #000;
+}
+ul, li{
+    list-style: none;
+}
+h1, h2, h3, h4, h5, h6{
+    margin: 0px;
+}
+/* ----- Banner section codes below ----- */
+.banner{
+    background: url("../img/banner.png") no-repeat center;
+    background-size: cover;
+    height: 800px;
+}
+.header-wrap, .navigation, .navbar-1{
+    display: flex;
+    justify-content: space-between;
+}
+.navbar-1 a{
+    height: 0%;
+}
+.navbar-1 a li{
+    margin: 50px 25px 0px 0px;
+    font-size: 14px;
+    font-weight: bold;
+    position: relative;
+}
+.navbar-1 a li span{
+    color: #511de5;
+}
+.navbar-1 a li span img{
+    position: absolute;
+    top: 100%;
+    left: -4px;
+}
+.login{
+    margin-top: 45px;
+}
+.login .btn{
+    font-size: 14px;
+    padding: 8px 40px;
+    border-radius: 20px;
+    background: linear-gradient(to right, #511de5 40%, #37a1fb);
+}
+.login .btn:hover{
+    color: #511de5;
+    background: transparent;
+    border: 1px solid #511de5;
+}
+.login a{
+    margin-right: 40px;
+    font-weight: bold;
+}
+.banner-section{
+    position: relative;
+}
+.banner-section .banner-inner{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-66%, 55%);
+}
+.banner-inner h1{
+    font-size: 60px;
+    font-weight: 800;
+}
+.banner-inner h1 span{
+    color: #511de5;
+}
+.banner-inner .btn{
+    float: right;
+    padding: 8px 30px;
+    margin-top: 40px;
+    font-weight: 600;
+    text-transform: uppercase;
+    background: #f2f2f2;
+    color: #061113;
+    letter-spacing: 2px;
+    border-radius: 20px;
+    border: none;
+    font-size: 12px;
+}
+/* ----- Highlight section codes below ----- */
+.highlight{
+    background: url("../img/bg-1.png") center;
+    background-size: cover;
+}
+.highlight-inner{
+    position: relative;
+    height: 140px;
+}
+.highlight-inner img{
+    position: absolute;
+    top: -40px;
+    left: 100px;
+}
+.highlight-inner h4{
+    color: #fff;
+    padding-top: 40px;
+    font-weight: 800;
+}
+
+/* ----- Statistics section codes below ----- */
+.statistics-outer{
+    height: 691px;
+    position: relative;
+    background: url("../img/bg-2.png") center no-repeat;
+    background-size: 960px 691px;
+    background-position: 5px 0px;
+    margin: 120px 0px 0px 80px;
+    left: 0%;
+}
+.statistics-inner{
+    top: 0px;
+    left: 0px;
+}
+.statistics-inner h2{
+    font-size: 40px;
+    font-weight: 800;
+    margin: 100px 0px 40px 100px;
+}
+.statistics-inner p{
+    font-size: 12px;
+    font-weight: 700;
+    margin: 40px 0px 40px 100px;
+}
+.statistics-inner .percentige{
+    padding-top: 40px;
+}
+.statistics-inner .percentige span{
+    font-size: 100px;
+    color: #511de5;
+}
+.logos{
+    margin: 0px auto;
+}
+
+/* ----- Intro Quote section start ----- */
+.intro-quote{
+    height: 980px;
+    background: url("../img/bg-3.png") center no-repeat;
+    background-size: cover;
+    margin: 0px auto;
+}
+.intro-quote .background-container{
+    position: relative;
+    margin-top: 240px;
+}
+.inner-quotes{
+    position: absolute;
+    top: 58%;
+    left: 42%;
+    color: #fff;
+}
+.background-container .inner-quotes p{
+    font-weight: 200;
+}
+.quotes{
+    padding-top: 55%;
+    padding-left: 80px;
+}
+.quotes h2{
+    margin-bottom: 40px;
+    font-size: 40px;
+    line-height: 48px;
+    font-weight: 800;
+}
+.quotes .btn{
+    font-size: 12px;
+    padding: 8px 20px;
+    background: #fff;
+    color: #061113;
+    text-transform: uppercase;
+    border-radius: 20px;
+    border: none;
+    letter-spacing: 2px;
+}
+.quotes .btn:hover{
+    background-image: linear-gradient(to left, rgb(81,29,229) 30%,rgb(18,130,229));
+    color: #fff;
+}
+
+/* ----- Efficiency section codes start ----- */
+.efficiency{
+    border-bottom: 2px solid #f9f9f9;
+}
+.efficiency-inner{
+    position: relative;
+    margin-top: 80px;
+    margin-left: 25px;
+    padding-bottom: 100px;
+}
+.efficiency-inner h2{
+    font-size: 48px;
+    font-weight: 700;
+    padding-bottom: 40px;
+}
+.efficiency-inner p{
+    font-size: 13px;
+    font-weight: 600;
+}
+.featured-text-container{
+    margin-top: 40px;
+}
+.text-1, .text-2{
+    font-size: 18px;
+    display: flex;
+    padding: 10px;
+    font-weight: bold;
+}
+.text-1 img,.text-2 img{
+    padding-right: 20px;
+}
+.efficiency-inner .btn{
+    margin-top: 60px;
+    font-size: 12px;
+    padding: 10px 25px;
+    background: linear-gradient(to right, #511de5, #0a8dfc);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+}
+.featured-bg{
+    position: absolute;
+    right: -10%;
+}
+
+/* ----- Secondary efficiency section start ----- */
+.secondary-efficiency{
+    position: relative;
+    border-bottom: 2px solid #f9f9f9;
+}
+.secondary-efficiency h2{
+    font-size: 50px;
+    font-weight: 800;
+    padding-top: 120px;
+    padding-bottom: 40px;
+}
+.secondary-efficiency p{
+    font-weight: 600;
+    padding-bottom: 120px;
+}
+.efficiency-feature-container{
+    width: 100%;
+    position: relative;
+    display: inline-block;
+    padding: 0px 40px;
+}
+.first-col, .second-col{
+    border-right: 2px solid #f9f9f9;
+}
+
+/* ----- Quotation section codes start ----- */
+.quotation-header h2{
+    font-size: 50px;
+    font-weight: 800;
+    margin-top: 120px;
+    margin-bottom: 100px;
+}
+.quote-bg{
+    position: relative;
+    background: url("../img/comma.png") no-repeat;
+    background-size: cover;
+    margin-bottom: 160px;
+    height: 492px;
+    border: 1px solid #fff;
+    opacity: 0.5;
+}
+.quote-bg:hover{
+    opacity: 1;
+    box-shadow: 3px 3px 5px 6px #ccc;
+    transition: 1s;
+    cursor: pointer;
+}
+.quote-bg h5{
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    font-size: 18px;
+    font-weight: bold;
+    color: #a2a2a2;
+    transition: 1s;
+}
+.quote-bg:hover h5{
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    font-weight: bold;
+    color: #0000ff;
+}
+.quote-bg h5::after{
+    content: '';
+    background: #f8f8f8;
+    width: 80%;
+    height: 3px;
+}
+.quote-bg h4{
+    position: absolute;
+    bottom: 10%;
+    left: 18%;
+    text-align: center;
+    color: #999999;
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: uppercase;
+    transition: 1s;
+}
+.quote-bg:hover h4{
+    color: #000;
+}
+.quote-bg .avatar{
+    position: absolute;
+    top: 70%;
+    left: 45%;
+}
+.quote-bg p{
+    position: absolute;
+    bottom: 0%;
+    left: 40%;
+    color: #676767;
+}
+
+/* ----- Footer section codes start ----- */
+.footer-section{
+    background: url("../img/footer-bg.png") bottom no-repeat;
+    background-size: cover;
+    height: 1282px;
+    position: relative;
+}
+.faq-wrapper{
+    background: #fff;
+    box-shadow: 1px 1px 2px 2px #ccc;
+    border-radius: 2px;
+}
+.faq-wrapper h2{
+    font-size: 65px;
+    font-weight: 800;
+    padding-top: 130px;
+    padding-bottom: 60px;
+}
+.faq-wrapper span p{
+    font-weight: bold;
+    color: #0000ff;
+    font-size: 16px;
+    padding-bottom:25px !important;
+}
+.faq-wrapper p{
+    padding-left: 15%;
+    padding-bottom: 60px;
+}
+#accordion{
+    width: 70%;
+    margin-left: 14%;
+    padding-bottom: 120px;
+}
+.card{
+    border: none;
+}
+.card-header{
+    background: #fff;
+}
+.btn-link{
+    color: #000;
+    font-weight: bold;
+}
+.btn-link:hover{
+    color: #000;
+    text-decoration: none;
+}
+#headingThree{
+    margin-bottom: 0px;
+}
+.footer-wrapper{
+    padding-top: 140px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-list{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-list li a{
+    margin-right: 20px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+}
+.copyright{
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+}
